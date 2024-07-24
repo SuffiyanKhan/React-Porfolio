@@ -3,6 +3,9 @@ import { IoLogoFirebase, IoLogoJavascript } from "react-icons/io5";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 
+// cv
+import cv from '../assets/cv.pdf'
+
 // for project 1
 import project1Img1 from '../assets/Project1/1.png'
 import project1Img2 from '../assets/Project1/2.png'
@@ -123,7 +126,8 @@ const education = [
 ]
 
 // resumeLink
-const resume = "https://drive.google.com/file/d/1qQI_0lC0Sb-tmoMS5ZrvwonM-bkH6c9m/view?usp=sharing";
+const resume = cv;
+// const resume = "https://drive.google.com/fi/le/d/1qQI_0lC0Sb-tmoMS5ZrvwonM-bkH6c9m/view?usp=sharing";
 
 // professionalExperience
 const professionalExperience = [
