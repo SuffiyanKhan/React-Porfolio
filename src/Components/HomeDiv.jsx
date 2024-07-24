@@ -6,6 +6,7 @@ import jsonIcon from '../assets/jsonIcon.png'
 import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
 import { name, resume } from '../Constants/Constants'
+import cv from '../assets/cv.pdf'
 
 export default function HomeDiv() {
     return (
@@ -74,7 +75,7 @@ export default function HomeDiv() {
                         </button>
 
                         <button className='btn'>
-                            <a href={resume} target='_blank' rel='noreferrer'>
+                            <a href={cv} target='_blank' rel='noreferrer'>
                                 see my resume
                             </a>
                         </button>
